@@ -1,7 +1,0 @@
-Mutable datatype: we can change the /edit/midify/delete the value in the same referance.
-
-ex: list,dict, set 
-
-Immutable_: we cant modifiy the value 
-ex: string, number, tuple
-
