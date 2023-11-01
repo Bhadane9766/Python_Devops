@@ -1,19 +1,10 @@
-"""Mutable datatype: we can change the /edit/midify/delete the value in the same referance.
 
-ex: list,dict, set"""
-
-
-def demo(a):
-    a = 10 
-    a = a + 20
-    print("the value of a is:", +a)
-
-
-a = 100
-print("main output", +a)
-
-demo(a)
+def immdemo(mylist):
+    mylist[0] = mylist[0] + 10
+    print(" this is function output:", mylist)
 
 
 
-
+list = [10,20,30,40,50]
+print("output is outside list: ", list) 
+immdemo(list)
