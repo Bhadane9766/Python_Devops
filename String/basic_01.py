@@ -74,7 +74,48 @@
 # print("toal a char is", count)  
 
 ##### write a program for count char from given string  #######  
-s = input("enter string:-")
+# s = input("enter string:-")
 
-c = s.count("a") +s.count("s")
-print(c)
+# c = s.count("a") +s.count("s")
+# print(c)
+
+#### make capital latter of every string #####
+
+# s = "python in world"
+# print(s.title())
+
+
+### using find function ########
+
+# a = "India is my country"
+# b = "z"
+
+# print(a.find(b,0,len(a)-1))
+
+##### Palindrome string check #####
+
+# s = input("Enter the string:").lower()
+# print("given string is :", s)
+# t = s[::-1]
+# print(t)
+# if(s==t):
+#     print(f" {s} this is palidrome string")
+# else:
+#     print(f" {s} given string is not palidrome")    
+
+##### string in build function : isalnum #####
+
+
+
+# s = "python123"
+# #print(s.isalnum())
+# print(s.replace("p", "@"))
+
+### split function ####
+
+s = "string in build function"
+t = s.split(" ")
+print(t)
+
+
+
