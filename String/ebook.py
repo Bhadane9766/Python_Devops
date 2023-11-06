@@ -14,7 +14,7 @@ pdf_document = fitz.open("pdf", pdf_content)
 # Extract and save all pages as separate PDF files
 for page_number in range(pdf_document.pageCount):
     page = pdf_document[page_number]
-    output_file_name = f"page_{page_number + 1}.pdf"  # Output file name for each page
+    output_file_name = f"page_{page_number + 1}.pdf"  ### Output file name for each page
     page.writePDF(output_file_name)
 
 # Close the PDF document
