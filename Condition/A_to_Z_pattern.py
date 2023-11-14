@@ -1,18 +1,17 @@
 #  $$$$$$$$$$$$$$$$$$$ print A pattern  $$$$$$$$$$$$$$$$$$$$$ ##
 
-# n = int(input("Enter the no of row :"))
-# m = round(n/2)
+n = int(input("Enter the no of row :"))
+m = round(n/2)-1
 
 
-# for i in range(n):
-#     for j in range(n):
-#         if ((j==0 or j==n-1) and i!=0) or ((i==0 or i==m) and (j>0 and j<n-1)):
-#             print("*", end='')
-#         else:
-#             print(" ", end='')
+for i in range(n):
+    for j in range(n):
+        if ((j==0 or j==n-1)and i!=0) or ((i==0 or i==m) and (j>0 and j<n-1)):
+            print("*", end='')
+        else:
+            print(" ", end='')
 
-#     print()
-
+    print()
 
 
 
@@ -21,9 +20,7 @@
 ##  $$$$$$$$$$$$$$$$$$$$$ Print B pattern $$$$$$$$$$$$$$$$$$$$$$$$$$$$ ##    
 
 # n = int(input("Enter the no of row :"))
-# m = round(n/2)-1
-
-
+# m = (n//2)
 # for i in range(n):
 #     for j in range(n):
 #         if ((j==0 or j==n-1) and i!=0 or i==m or i==n-1) or ((i==0 or i==m or i==n-1) and (j>0 and j<n-1)):
@@ -38,7 +35,8 @@
 ##  $$$$$$$$$$$$$$$$$$$$$ Print C pattern $$$$$$$$$$$$$$$$$$$$$$$$$$$$ ##   
 
 
-# n = int(input("Enter the no of row :"))
+# n = int(input("Enter t=]
+# he no of row :"))
 # m = round(n/2)-1
 
 
@@ -588,30 +586,30 @@
 
 ##  $$$$$$$$$$$$$$$$$$$$$ Print Z pattern $$$$$$$$$$$$$$$$$$$$$$$$$$$$ ##
 
-n = int(input("Enter the no of row :"))
-m = (n//2)
+# n = int(input("Enter the no of row :"))
+# m = (n//2)
 
-a=1
-b=n-2
+# a=1
+# b=n-2
 
-for i in range(n):
+# for i in range(n):
     
-    for j in range(n):  
+#     for j in range(n):  
 
-        if(i==0 or i==n-1):
+#         if(i==0 or i==n-1):
 
-            print("*", end='')
+#             print("*", end='')
             
-        elif(i==a and j==b):
-            print("*", end='')
+#         elif(i==a and j==b):
+#             print("*", end='')
 
-            a+=1
-            b-=1
+#             a+=1
+#             b-=1
         
         
               
-        else:
-            print(" ", end='')
+    #     else:
+    #         print(" ", end='')
 
-    print()
+    # print()
 
