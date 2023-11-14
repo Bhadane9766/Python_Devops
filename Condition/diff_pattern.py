@@ -165,7 +165,7 @@ n = int(input("Enter the no of row :"))
 m = round(n/2)-1
 
 
-for i in range(n):
+for i in range(n-1):
 
 
     for j in range(i,n):             # loop for print "space" in decreasing tringle
@@ -203,7 +203,6 @@ for i in range(n):
     ***
    *****
   *******
- *********
  *********
   *******
    *****
