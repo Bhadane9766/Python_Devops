@@ -128,9 +128,59 @@
 # $$$$$$$$$$$$$$$$$  Reverse Hill tringle $$$$$$$$$$$$$$$$$$$$
 
 
+# n = int(input("Enter the no of row :"))
+# m = round(n/2)-1
+
+
+# for i in range(n):
+
+
+#     for j in range(i+1):             # loop for print "space" in increasing tringle
+#             print(" ", end='')
+    
+
+#     for j in range(i,n):             # this loop for print * decreasing tng
+#             print("*", end='')
+
+#     for j in range(i,n-1):             # this loop for print * decreasing tng
+#             print("*", end='')  
+
+#     print()
+
+'''OUTPUT
+ *********
+  *******
+   *****
+    ***
+     *
+'''
+
+# $$$$$$$$$$$$$$$$$  Diamond * pattern $$$$$$$$$$$$$$$$$$$$
+
+# note : just added hill pattern + reverse hill patthern
+
+# hill patthern code
+
 n = int(input("Enter the no of row :"))
 m = round(n/2)-1
 
+
+for i in range(n):
+
+
+    for j in range(i,n):             # loop for print "space" in decreasing tringle
+            print(" ", end='')
+    
+
+    for j in range(i):             # this loop for print * increasing tng
+            print("*", end='')
+
+    for j in range(i+1):             # this loop for print * increasing tng
+            print("*", end='')  
+
+    print()
+
+#  Reverse hill code
 
 for i in range(n):
 
@@ -145,15 +195,19 @@ for i in range(n):
     for j in range(i,n-1):             # this loop for print * decreasing tng
             print("*", end='')  
 
-    print()
+    print() 
+
     
-'''OUTPUT
+''' OUTPUT
+     *
+    ***
+   *****
+  *******
+ *********
  *********
   *******
    *****
     ***
      *
+
 '''
-
-
-
