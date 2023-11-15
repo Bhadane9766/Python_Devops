@@ -161,41 +161,41 @@
 
 # hill patthern code
 
-n = int(input("Enter the no of row :"))
-m = round(n/2)-1
+# n = int(input("Enter the no of row :"))
+# m = round(n/2)-1
 
 
-for i in range(n-1):
+# for i in range(n-1):
 
 
-    for j in range(i,n):             # loop for print "space" in decreasing tringle
-            print(" ", end='')
+#     for j in range(i,n):             # loop for print "space" in decreasing tringle
+#             print(" ", end='')
     
 
-    for j in range(i):             # this loop for print * increasing tng
-            print("*", end='')
+#     for j in range(i):             # this loop for print * increasing tng
+#             print("*", end='')
 
-    for j in range(i+1):             # this loop for print * increasing tng
-            print("*", end='')  
+#     for j in range(i+1):             # this loop for print * increasing tng
+#             print("*", end='')  
 
-    print()
+#     print()
 
-#  Reverse hill code
+# #  Reverse hill code
 
-for i in range(n):
+# for i in range(n):
 
 
-    for j in range(i+1):             # loop for print "space" in increasing tringle
-            print(" ", end='')
+#     for j in range(i+1):             # loop for print "space" in increasing tringle
+#             print(" ", end='')
     
 
-    for j in range(i,n):             # this loop for print * decreasing tng
-            print("*", end='')
+#     for j in range(i,n):             # this loop for print * decreasing tng
+#             print("*", end='')
 
-    for j in range(i,n-1):             # this loop for print * decreasing tng
-            print("*", end='')  
+#     for j in range(i,n-1):             # this loop for print * decreasing tng
+#             print("*", end='')  
 
-    print() 
+#     print() 
 
     
 ''' OUTPUT
@@ -210,3 +210,37 @@ for i in range(n):
      *
 
 '''
+# $$$$$$$$$$$$$$$$$  Sostik pattern $$$$$$$$$$$$$$$$$$$$
+
+#n = int(input("Enter the no of row :"))
+#m = round(n/2)-1
+
+
+for i in range(9):
+    
+    for j in range(9):
+        if j==4  or (j==0 and i<4) or (j==8 and i>4):
+            print("*", end='')
+        elif i==4 or (i==0 and j>4) or (i==8 and j<4):
+            print("*", end='')
+        else:
+            print(" ", end='')
+
+    print() 
+
+''' output
+
+*   *****
+*   *    
+*   *    
+*   *    
+*********
+    *   *
+    *   *
+    *   *
+*****   *
+
+
+'''
+
+
