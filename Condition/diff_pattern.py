@@ -216,17 +216,17 @@
 #m = round(n/2)-1
 
 
-for i in range(9):
+# for i in range(9):
     
-    for j in range(9):
-        if j==4  or (j==0 and i<4) or (j==8 and i>4):
-            print("*", end='')
-        elif i==4 or (i==0 and j>4) or (i==8 and j<4):
-            print("*", end='')
-        else:
-            print(" ", end='')
+#     for j in range(9):
+#         if j==4  or (j==0 and i<4) or (j==8 and i>4):
+#             print("*", end='')
+#         elif i==4 or (i==0 and j>4) or (i==8 and j<4):
+#             print("*", end='')
+#         else:
+#             print("  ", end='')
 
-    print() 
+#     print() 
 
 ''' output
 
@@ -242,5 +242,23 @@ for i in range(9):
 
 
 '''
+
+# $$$$$$$$$$$$$$$$$  Sostik pattern $$$$$$$$$$$$$$$$$$
+
+n = int(input("Enter the no of row :"))
+m = round(n/2)-1
+
+for i in range(n):
+
+    for j in range(i,n):                     # this loop for print blank space decreasing tng
+            print(" ", end='')
+
+    for j in range(i+1):             # loop for print * in increasing tringle
+            print("*", end='')
+
+    
+            
+
+    print() 
 
 
