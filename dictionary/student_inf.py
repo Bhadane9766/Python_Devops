@@ -1,11 +1,13 @@
-## program for student info and print the output
+### program for student info and print the output
 
 student_DB={}     # create empty dictionary
 
 # take input from user
+
 while True:
 
     line=input("enter the id and name seperated by comma or press q to exit:")
+
 
     if line=='q':
         break
