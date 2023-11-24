@@ -13,7 +13,6 @@ def add(x):
         print(f"the addition of {y}+{i}:{y}")
 
 
-
 mul(x)
 add(x)
 
