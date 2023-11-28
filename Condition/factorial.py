@@ -15,7 +15,7 @@
 
 ##############################################################################
 
-# write a factorial program by using for loop
+# write a factorial program by using  loop
 
 # n = int(input("Enter the number: "))
 # fact = 1
