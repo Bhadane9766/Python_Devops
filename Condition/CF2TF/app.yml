@@ -1,0 +1,57 @@
+AWSTemplateFormatVersion: 2010-09-09 Description: CloudFoinfrasturcture,
+
+Metadata:
+
+AWS::CloudFormation:: Interface:
+
+ParameterGroups:
+
+Label:
+
+default: "User Configuration"
+
+Parameters:
+
+Contact Email
+
+I
+
+2
+
+4
+
+6
+
+UsedBy
+
+-CR
+
+- Label:
+
+default: "Stack Configuration"
+
+Parameters:
+
+Environment
+
+Customer
+
+Customeriavid
+
+-CreatelionCM
+
+-CreateCM
+
+-CreateMonitoring
+
+-CreateVDA
+
+-RESInstanceType
+
+AMONodes
+
+-AMQInstanceType
+
+-CHNodes
+
+-CMInstanceType
